@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:menuCategory="secondary">
+<!--        menu category secondary korar karon holo back button click korle jno app off
+ na hoy  jto gula click kora hobe sob route e abar back hobe-->
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8_clock_50"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icons8_marker_50"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icons8_store_setting_50"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/icons8_whatsapp_50"
+            android:title="@string/nav_share" />
+        <item
+            android:id="@+id/shareFragment"
+            android:icon="@drawable/icons8_whatsapp_50"
+            android:title="@string/nav_share" />
+    </group>
+</menu>
